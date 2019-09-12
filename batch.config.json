@@ -1,0 +1,11 @@
+{
+  "txTimeout": 300000,
+  "skipInit": true,
+  "controllers": [
+    {
+      "name": "batch-cc",
+      "version": "file:./packages/batch-cc",
+      "controller": "BatchController"
+    }
+  ]
+}
